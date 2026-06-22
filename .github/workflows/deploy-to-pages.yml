@@ -34,7 +34,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build --base-href="/qr-generator/" 
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
